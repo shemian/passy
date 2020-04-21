@@ -1,7 +1,7 @@
 class User:
     
 
-    user_list = [] 
+   
 
     def __init__(self,first_name,last_name,password):
 
@@ -14,7 +14,8 @@ class User:
         self.last_name = last_name
         self.password = password
 
-
+    user_list = [] 
+        
     def save_user(self):
     
         '''
@@ -28,7 +29,7 @@ class User:
         '''
         delete_app method deletes a saved credential in the credential_list
         '''
-        self.user_list.remove()
+        self.user_list.remove(self)
         
     @classmethod
     def find_user_by_first_name(cls,first_name):
@@ -64,7 +65,7 @@ class User:
 
 
     @classmethod
-    def display_users(cls,):
+    def display_users(cls):
 
         '''
         method that returns the user list

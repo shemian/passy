@@ -75,14 +75,14 @@ def delete_app(self):
 
 
 def main():
-    print ("***************************welcome to paasword locker,'\n' 'please enter your name ...........'")
-    
-    
-    user_name = input().lower()
-    
-    
     
     while True:
+        print ("**************************welcome to password locker,'\n' 'please enter your name ...........'")
+    
+    
+        user_name = input().lower()
+    
+    
         print('\n')
         print("*"*60)
         print("Create app password using this short code: 'mine' = your own password, 'gp' = to generate password")
@@ -193,7 +193,7 @@ def main():
              ("*************Please Enter a valid short code***************")
 
 
-if __name__== " __main__":
+if __name__== "__main__":
     
     main()         
                 
