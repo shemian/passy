@@ -35,3 +35,7 @@ open terminal
 git clone
 cd password-locker
 code .
+
+
+# Technologies used
+python 3
