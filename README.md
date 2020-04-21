@@ -11,3 +11,5 @@ Ian shem nyongesa
 Email:shemian09@gmail.com
 
 # Description
+This project lets the user save login credentials for any appliction Once create a username and password they can add an app and the program saves credentials.one has the choice to either input their own password or os generates for them the password
+The user can also delete an existing 
